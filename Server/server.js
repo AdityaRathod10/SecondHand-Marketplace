@@ -6,7 +6,6 @@ const userRoutes = require("./routes/userRoutes");
 const productRoutes = require("./routes/productRoutes");
 const connectDB = require("./config/db");
 
-
 // Connect to MongoDB
 connectDB();
 
@@ -16,9 +15,24 @@ const app = express();
 app.use(bodyParser.json({ limit: "50mb" }));
 app.use(bodyParser.urlencoded({ limit: "50mb", extended: true }));
 app.use(express.json());
+
+// CORS configuration
+const allowedOrigins = [
+  "http://localhost:3000", // Local development URL
+  "https://second-handmarketplace.vercel.app", // Production URL
+  "https://secondhandmarketplace.vercel.app" // Additional necessary URL
+];
+
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || "*", // Allow CORS from the client URL
+    origin: function (origin, callback) {
+      // Allow requests with no origin (like mobile apps or curl requests)
+      if (!origin || allowedOrigins.indexOf(origin) !== -1) {
+        callback(null, true);
+      } else {
+        callback(new Error("Not allowed by CORS"));
+      }
+    },
   })
 );
 
@@ -36,5 +50,5 @@ if (!process.env.SECRET) {
 const port = process.env.PORT || 8000;
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
-  console.log("Loaded environment variables")
+  console.log("Loaded environment variables");
 });
