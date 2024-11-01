@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/45132f65-68f3-461e-924c-2f9a9da1751e)# Second Hand E-commerce Platform
+# Second Hand E-commerce Platform
 
 Welcome to **Second Hand**, the eco-friendly e-commerce platform designed exclusively for college students! With our platform, students can buy and sell second-hand goods among themselves, creating a sustainable marketplace within their campus. This initiative not only promotes reusing products but also significantly reduces transportation costs as everything is exchanged within the campus itself.
 
