@@ -1,10 +1,10 @@
-# Second Hand E-commerce Platform
+![image](https://github.com/user-attachments/assets/45132f65-68f3-461e-924c-2f9a9da1751e)# Second Hand E-commerce Platform
 
 Welcome to **Second Hand**, the eco-friendly e-commerce platform designed exclusively for college students! With our platform, students can buy and sell second-hand goods among themselves, creating a sustainable marketplace within their campus. This initiative not only promotes reusing products but also significantly reduces transportation costs as everything is exchanged within the campus itself.
 
 ## Website Url
 
-https://second-hand-client.onrender.com/
+https://secondhandmarketplace.vercel.app
 
 ## Project Overview
 
@@ -51,15 +51,18 @@ cd Second-Hand
 
 ## Screenshots
 
-![image](https://github.com/Kraizan/Second-Hand/assets/63310123/e9d4bb64-d5aa-4075-af9c-de6970bd7c08)
+![Screenshot 2024-11-01 202631](https://github.com/user-attachments/assets/d5785ec3-1147-46c6-856a-c32d5a219612)
 
-![image](https://github.com/Kraizan/Second-Hand/assets/63310123/9c07f1b6-6650-4004-9b78-5340d0f94099)
 
-![image](https://github.com/Kraizan/Second-Hand/assets/63310123/413441d1-5bdb-4ceb-b9fd-52aadd71c13a)
+![Screenshot 2024-11-01 202656](https://github.com/user-attachments/assets/2305aed5-fad7-49ec-86a3-7097eb98db64)
 
-![image](https://github.com/Kraizan/Second-Hand/assets/63310123/20d224e3-ad00-46c6-b0da-3376e410b635)
 
-![image](https://github.com/Kraizan/Second-Hand/assets/63310123/15572d2d-7777-485c-9fa8-df913ca80894)
+![Screenshot 2024-11-01 202723](https://github.com/user-attachments/assets/46862abb-56f7-4162-9f89-1fcd2d703c7f)
+
+
+![Screenshot 2024-11-01 203124](https://github.com/user-attachments/assets/e6f31ed3-0773-4017-a293-29541434ee3e)
+
+![Screenshot 2024-11-01 203145](https://github.com/user-attachments/assets/b2f9675a-2cd2-4ca3-b295-c9d76583356d)
 
 ## Contributing
 
